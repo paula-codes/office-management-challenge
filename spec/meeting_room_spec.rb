@@ -28,6 +28,7 @@ describe MeetingRoom do
   end
 
   describe '#leave' do
+    
     it 'makes the room available when people leave' do
       subject.enter
       subject.leave
