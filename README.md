@@ -51,7 +51,7 @@ So that I can see where to have my meeting
 I would like to be able to see a list of available rooms in the office
 ```
 
-Test Instruction
+Test Instructions
 ------
 
 ```
