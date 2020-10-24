@@ -34,5 +34,11 @@ describe MeetingRoom do
       subject.leave
       expect(subject.room_available).to eq true
     end
+
+    # it 'sends text when a meeting room becomes available' do
+    #   subject.enter
+    #   subject.leave
+    #   expect()
+    # end
   end 
 end

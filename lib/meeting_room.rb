@@ -1,9 +1,12 @@
+require_relative 'sms'
+
 class MeetingRoom
   attr_reader :room_available, :name
 
-  def initialize(name)
+  def initialize(name, sms: nil)
     @room_available = true
     @name = name
+    @sms = SMS.new
   end
 
   def enter
@@ -14,6 +17,8 @@ class MeetingRoom
 
   def leave
     @room_available = true
+    @sms.send_text
   end
+
 
 end

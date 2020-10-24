@@ -1,5 +1,6 @@
 require_relative 'meeting_room'
 
+
 class Office
   attr_reader :meeting_rooms
 
