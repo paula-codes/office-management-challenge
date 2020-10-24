@@ -36,9 +36,10 @@ describe MeetingRoom do
     end
 
     # it 'sends text when a meeting room becomes available' do
+    #   sms = SMS.new
     #   subject.enter
     #   subject.leave
-    #   expect()
+    #   expect(sms.send_text).
     # end
   end 
 end
