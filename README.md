@@ -3,7 +3,7 @@
 Objective
 ---------
 
-The goal was to create a program which controls meeting room availability in the office. The program is able to provide users with a list of rooms, their names and availability for meetings. I've also went further and implemented Twilio API, so now when a meeting room becomes available it sends you a text message telling you it's available.
+The goal was to create a program which controls meeting room availability in the office. The program is able to provide users with a list of rooms, their names and availability for meetings. I've also went further and implemented Twilio API, so now when a meeting room becomes available it sends you a text message telling you it's available (demonstrated below).
 
 The program was developed utilizing Test Driven Development and Object Oriented Design.
 
@@ -75,11 +75,12 @@ room = MeetingRoom.new("CEO")
 room.enter
 room.leave
 ```
+Here's the text!
+
+<img src="images/text_screenshot.jpeg" width="450" height="400">
 
 
 Notes
 -------
 
 The text message service is not going to work until you sign up to Twilio API and input your account details into `sms.rb` .
-
-
